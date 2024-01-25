@@ -11,6 +11,7 @@ ffmpeg $preargs1 -i "2024-01-13 23-30-56.avi" $commonargs -c:v libx264rgb -crf 0
 ffmpeg $preargs1 -i "2024-01-13 23-30-56.avi" $commonargs -c:v libx264rgb -crf 0 -preset:v veryfast -g 0 test1_x264very_intra.avi
 ffmpeg $preargs1 -i "2024-01-13 23-30-56.avi" $commonargs -c:v libx264rgb -crf 0 -preset:v ultrafast -g 0 test1_x264ultra_intra.avi
 ffmpeg $preargs1 -i "2024-01-13 23-30-56.avi" $commonargs -c:v png test1_png.avi
+ffmpeg $preargs1 -i "2024-01-13 23-30-56.avi" $commonargs -c:v huffyuv test1_huffyuv.avi
 
 
 ffmpeg $preargs2 -i "2024-01-13 23-30-56.avi" $commonargs -c:v utvideo test2_utvideo.avi
@@ -20,3 +21,4 @@ ffmpeg $preargs2 -i "2024-01-13 23-30-56.avi" $commonargs -c:v libx264rgb -crf 0
 ffmpeg $preargs2 -i "2024-01-13 23-30-56.avi" $commonargs -c:v libx264rgb -crf 0 -preset:v veryfast -g 0 test2_x264very_intra.avi
 ffmpeg $preargs2 -i "2024-01-13 23-30-56.avi" $commonargs -c:v libx264rgb -crf 0 -preset:v ultrafast -g 0 test2_x264ultra_intra.avi
 ffmpeg $preargs2 -i "2024-01-13 23-30-56.avi" $commonargs -c:v png test2_png.avi
+ffmpeg $preargs2 -i "2024-01-13 23-30-56.avi" $commonargs -c:v huffyuv test2_huffyuv.avi
