@@ -6,7 +6,8 @@ Everything published to this repository is licensed under [CC BY 4.0](LICENSE)
 ## FFmpeg articles
 
 * [x264 for professional video work](x264.pdf)
-* [Motion JPEG for video work](mjpeg.pdf)
+* [Motion JPEG for video work](mjpeg/mjpeg.pdf)
+* [Lossless Video for Recording and Archiving](lossless.pdf)
 
 ## Linux/Operating systems articles
 
